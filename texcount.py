@@ -15,7 +15,7 @@ def readTex(fileName):
             else:
                 lineArray.append(line)
     return lineArray
-    
+
 def count(lineArray):
     count=0
     for line in lineArray:
