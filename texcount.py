@@ -23,6 +23,10 @@ def count(lineArray):
             count+=len(line.split(" "))
     return count
 
+def printHelp():
+    print("-------Tex Count Toolkits-------")
+    
+
 if __name__ == '__main__':
     texFile=sys.argv[1]
     print count(readTex(texFile))
